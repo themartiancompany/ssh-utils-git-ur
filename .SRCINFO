@@ -8,9 +8,12 @@ pkgbase = ssh-utils-git
 	groups = hip-git
 	license = AGPL3
 	checkdepends = shellcheck
+	makedepends = make
 	makedepends = curl
 	makedepends = jq
 	depends = bash
+	depends = libcrash-bash
+	optdepends = tor: it supports generating files to connect through it
 	provides = ssh-utils=0.1.1.r4.gf8b4019e13d8a066cf1af561bdd6596b77442689
 	provides = mksshconfig=0.1.1.r4.gf8b4019e13d8a066cf1af561bdd6596b77442689
 	conflicts = ssh-utils

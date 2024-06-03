@@ -31,13 +31,16 @@ license=(
 )
 depends=(
   bash
+  libcrash-bash
 )
 makedepends=(
+  make
 )
 checkdepends=(
   shellcheck
 )
 optdepends=(
+  'tor: it supports generating files to connect through it'
 )
 provides=(
   "${_pkgname}=${pkgver}"
