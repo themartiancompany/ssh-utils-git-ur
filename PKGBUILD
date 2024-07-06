@@ -9,7 +9,7 @@ _proj="hip"
 _pkg="ssh"
 _pkgname="${_pkg}-utils"
 pkgname="${_pkgname}-git"
-pkgver="0.1.1.r4.gf8b4019e13d8a066cf1af561bdd6596b77442689"
+pkgver="0.1.1.1".r2.g"cc509b96b1f658401a80fc89649c001457978ed7"
 pkgrel=1
 _pkgdesc=(
   "A collection of SSH"
